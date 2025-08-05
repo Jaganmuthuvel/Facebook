@@ -1,0 +1,147 @@
+ * {
+     margin: 0;
+     padding: 0;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .body {
+     background-color: #F2F4F7;
+     display: flex;
+     padding-left: 20%;
+     padding-right: 20%;
+     justify-content: center;
+     gap: 20px;
+     padding-top: 8%;
+
+ }
+
+ .head {
+     margin-top: 80px;
+     margin-left: -30px;
+ }
+
+ .head img {
+     width: 300px;
+     height: 106px;
+     margin: -28px;
+ }
+
+
+ /* .head h1 {
+    color: #0866FF;
+    font-weight: bolder;
+    font-size: 75px;
+} */
+
+ .head h3 {
+     font-size: 32px;
+     font-weight: 25;
+     margin-top: 10px;
+     /* margin: -28px; */
+ }
+
+ .login {
+     background-color: #FFFFFF;
+     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+     padding: 10px;
+     border-radius: 10px;
+     width: 100%;
+
+
+ }
+
+
+ .b1 {
+     border-radius: 10px;
+     text-align: center;
+     background-color: #1877F2;
+     color: white;
+     border-color: #1877F2;
+     border: 1px;
+     margin: 10px 6px;
+     width: 99%;
+     height: 50px;
+     font-weight: bolder;
+     font-size: medium;
+ }
+
+ .b2 {
+     border-radius: 10px;
+     padding-left: 20px;
+     padding-right: 20px;
+     padding-top: 8px;
+     text-align: center;
+     padding-bottom: 8px;
+     margin-top: 30px;
+     background-color: #49bf31;
+     color: white;
+     border-color: #1877F2;
+     border: 1px;
+     height: 45px;
+     margin-bottom: 15px;
+     font-weight: bolder;
+     font-size: medium;
+ }
+
+ .b2 a {
+     text-decoration: none;
+     color: white;
+ }
+
+ .b1:hover {
+     background-color: #0866FF;
+     cursor: pointer;
+ }
+
+ .b2:hover {
+     background-color: #41b22a;
+     cursor: pointer;
+
+ }
+
+ input {
+     border-radius: 10px;
+     padding: 10px 30px;
+     margin-top: 10px;
+     box-sizing: border-box;
+     width: 100%;
+     height: 50px;
+     font-size: medium;
+     cursor: pointer;
+     border: solid #e9e3e3 1px;
+ }
+
+ form {
+     padding: 10px;
+     height: 25%;
+     text-align: center;
+
+ }
+
+ .p1 {
+     color: #1877F2;
+     font-size: 16px;
+     margin-top: 6px;
+     display: flex;
+     justify-content: center;
+ }
+
+ .login p:hover {
+     cursor: pointer;
+     text-decoration: underline;
+ }
+
+ .hr1 {
+     margin-top: 30px;
+     color: #ECEDEF;
+ }
+
+ .p2 {
+     margin-top: 20px;
+ }
+
+ .p2 a {
+     color: black;
+     font-weight: bold;
+     text-decoration: none;
+ }
